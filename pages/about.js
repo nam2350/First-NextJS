@@ -1,10 +1,10 @@
-import { useState } from "react";
-import NavBar from "../components/NavBar";
+import Head from "next/head";
+import Seo from "../components/Seo";
 
-export default function Test() {
+export default function About() {
   return (
     <div>
-      <NavBar />
+      <Seo title="About" />
       <h1>About</h1>
     </div>
   );
